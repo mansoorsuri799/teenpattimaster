@@ -32,7 +32,7 @@ export default function Header() {
           <div className="relative h-10 w-10 mr-2">
             <Image
               src={IMAGES.logo}
-              alt={`${SITE_NAME} logo with gold frame and three aces`}
+              alt={`${SITE_NAME} logo with gold frame, coin pot, and BIG WIN ribbon`}
               width={40}
               height={40}
               className="object-contain"

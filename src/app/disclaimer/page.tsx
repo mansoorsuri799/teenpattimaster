@@ -6,11 +6,11 @@ import { ROUTES, SITE_HOST, SITE_NAME, SITE_ORIGIN } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Disclaimer",
-  description: "Teen Patti Show website disclaimer: informational guides, real-money risk, and no income guarantee.",
+  description: "Teen Patti Master website disclaimer: informational guides, real-money risk, and no income guarantee.",
   alternates: { canonical: `${SITE_ORIGIN}${ROUTES.disclaimer}` },
   openGraph: {
-    title: "Disclaimer | Teen Patti Show",
-    description: "Legal notice for teenpattishowgame.com.pk.",
+    title: "Disclaimer | Teen Patti Master",
+    description: "Legal notice for teenpattimastergame.com.pk.",
     url: `${SITE_ORIGIN}${ROUTES.disclaimer}`,
     siteName: SITE_NAME,
     type: "website",
@@ -30,7 +30,7 @@ export default function Disclaimer() {
           <section className="bg-primary rounded-xl p-6">
             <h2 className="text-2xl font-bold text-white mb-3">Real-money play</h2>
             <p>
-              Teen Patti Show tables can use real money. You can lose the amount you deposit. Online card play sits in a legal grey area in Pakistan. Check the rules that apply to you before you install the APK or add a wallet.
+              Teen Patti Master tables can use real money. You can lose the amount you deposit. Online card play sits in a legal grey area in Pakistan. Check the rules that apply to you before you install the APK or add a wallet.
             </p>
           </section>
           <section className="bg-primary rounded-xl p-6">

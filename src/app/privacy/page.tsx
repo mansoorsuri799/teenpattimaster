@@ -5,11 +5,11 @@ import { ROUTES, SITE_EMAIL, SITE_HOST, SITE_NAME, SITE_ORIGIN } from "@/lib/sit
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "How teenpattishowgame.com.pk collects messages, logs, and analytics when you read Teen Patti Show guides.",
+  description: "How teenpattimastergame.com.pk collects messages, logs, and analytics when you read Teen Patti Master guides.",
   alternates: { canonical: `${SITE_ORIGIN}${ROUTES.privacy}` },
   openGraph: {
-    title: "Privacy Policy | Teen Patti Show",
-    description: "Privacy practices for the Teen Patti Show website.",
+    title: "Privacy Policy | Teen Patti Master",
+    description: "Privacy practices for the Teen Patti Master website.",
     url: `${SITE_ORIGIN}${ROUTES.privacy}`,
     siteName: SITE_NAME,
     type: "website",
@@ -22,7 +22,7 @@ export default function PrivacyPolicyPage() {
       <div className="container mx-auto max-w-4xl">
         <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Privacy Policy", href: ROUTES.privacy }]} />
         <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">Privacy Policy</h1>
-        <p className="text-lg text-gray-400 mb-10">Last updated: 4 September 2026</p>
+        <p className="text-lg text-gray-400 mb-10">Last updated: 5 September 2026</p>
         <div className="bg-secondary rounded-2xl p-8 md:p-12 space-y-8 text-gray-300 leading-relaxed">
           <section>
             <h2 className="text-2xl font-bold text-white mb-3">Who this covers</h2>

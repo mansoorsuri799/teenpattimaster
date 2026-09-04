@@ -35,7 +35,7 @@ export const ORGANIZATION_JSON_LD = {
   url: SITE_ORIGIN,
   logo: `${SITE_ORIGIN}${IMAGES.logo}`,
   description:
-    "Teen Patti Show is a Pakistani Android card lobby for Teen Patti, Rummy, Dragon vs Tiger, and JazzCash or EasyPaisa cash-outs.",
+    "Teen Patti Master is a Pakistani Android card lobby for Teen Patti, Rummy, Dragon vs Tiger, and JazzCash or EasyPaisa cash-outs.",
   sameAs: [...ORGANIZATION_SAME_AS],
   contactPoint: {
     "@type": "ContactPoint",
@@ -63,7 +63,7 @@ export const softwareApplicationLd = {
   softwareVersion: APP_FACTS.version,
   fileSize: APP_FACTS.size,
   description:
-    "Teen Patti Show is an Android card-game APK for Pakistan with Teen Patti tables, other lobby games, and JazzCash or EasyPaisa wallet flows.",
+    "Teen Patti Master is an Android card-game APK for Pakistan with Teen Patti tables, other lobby games, and JazzCash or EasyPaisa wallet flows.",
   screenshot: [...APP_SCREENSHOTS],
   author: {
     "@type": "Organization",

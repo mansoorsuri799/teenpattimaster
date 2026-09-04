@@ -5,12 +5,12 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { ROUTES, SITE_EMAIL, SITE_NAME, SITE_ORIGIN } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Contact Teen Patti Show Support",
-  description: "Email Teen Patti Show support for APK, wallet, or website questions. English-language contact for teenpattishowgame.com.pk.",
+  title: "Contact Teen Patti Master Support",
+  description: "Email Teen Patti Master support for APK, wallet, or website questions. English-language contact for teenpattimastergame.com.pk.",
   alternates: { canonical: `${SITE_ORIGIN}${ROUTES.contact}` },
   openGraph: {
-    title: "Contact Teen Patti Show Support",
-    description: "Reach the Teen Patti Show site team by email.",
+    title: "Contact Teen Patti Master Support",
+    description: "Reach the Teen Patti Master site team by email.",
     url: `${SITE_ORIGIN}${ROUTES.contact}`,
     siteName: SITE_NAME,
     type: "website",
@@ -43,7 +43,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <Link href="/" className="bg-secondary rounded-xl p-6 text-center hover:border-accent border border-transparent">
             <h3 className="text-xl font-bold mb-2 text-white">App overview</h3>
-            <p className="text-gray-400">Back to the Teen Patti Show homepage</p>
+            <p className="text-gray-400">Back to the Teen Patti Master homepage</p>
           </Link>
           <Link href={ROUTES.privacy} className="bg-secondary rounded-xl p-6 text-center hover:border-accent border border-transparent">
             <h3 className="text-xl font-bold mb-2 text-white">Privacy</h3>

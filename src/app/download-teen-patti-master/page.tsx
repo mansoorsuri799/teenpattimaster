@@ -4,20 +4,20 @@ import Link from "next/link";
 import { APP_AGGREGATE_RATING, APP_SCREENSHOTS, softwareApplicationLd } from "@/lib/appFacts";
 import CtaButton from "@/components/CtaButton";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import { APP_FACTS, IMAGES, ROUTES, SITE_NAME, SITE_ORIGIN } from "@/lib/site";
+import { APP_DOWNLOAD_HOST, APP_FACTS, IMAGES, ROUTES, SITE_NAME, SITE_ORIGIN } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Download Teen Patti Show APK for Android",
+  title: "Download Teen Patti Master APK for Android",
   description:
-    "Get the Teen Patti Show APK on Android in Pakistan. Version 1.0.8, 38MB, with install steps, unknown-source settings, and a safe-file checklist.",
+    "Get the Teen Patti Master APK on Android in Pakistan. Version 1.4(1), 38MB, with install steps, unknown-source settings, and a safe-file checklist.",
   alternates: { canonical: `${SITE_ORIGIN}${ROUTES.download}` },
   openGraph: {
-    title: "Download Teen Patti Show APK for Android",
-    description: "Install Teen Patti Show from teenpattishowgame.com.pk. 38MB Android APK with JazzCash-ready wallet screens.",
+    title: "Download Teen Patti Master APK for Android",
+    description: "Install Teen Patti Master from teenpattimastergame.com.pk. 38MB Android APK with JazzCash-ready wallet screens.",
     url: `${SITE_ORIGIN}${ROUTES.download}`,
     siteName: SITE_NAME,
     type: "website",
-    images: [{ url: `${SITE_ORIGIN}${IMAGES.logo}`, width: 512, height: 512, alt: "Teen Patti Show official APK icon" }],
+    images: [{ url: `${SITE_ORIGIN}${IMAGES.logo}`, width: 512, height: 512, alt: "Teen Patti Master official APK icon" }],
   },
 };
 
@@ -33,7 +33,7 @@ export default function DownloadPage() {
       },
       {
         "@type": "HowTo",
-        name: "Download and install Teen Patti Show",
+        name: "Download and install Teen Patti Master",
         totalTime: "PT8M",
         step: [
           { "@type": "HowToStep", name: "Save the APK", text: "Tap DOWNLOAD NOW on this page and wait for the file to finish." },
@@ -57,22 +57,25 @@ export default function DownloadPage() {
         />
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white">
-            Get the <span className="text-accent">Teen Patti Show</span> APK on your phone
+            Get the <span className="text-accent">Teen Patti Master</span> APK on your phone
           </h1>
           <p className="text-lg text-gray-300 max-w-4xl mx-auto">
-            This page is the install path for {SITE_NAME}. Softonic and APKPure copies of similar names are not this file. Save the package from teenpattishowgame.com.pk, then register before you open the shop.
+            This page is the install path for {SITE_NAME}. Softonic and Play Store copies of the same name are not this file. Start the save from teenpattimastergame.com.pk, then register before you open the shop.
           </p>
         </div>
         <div className="flex justify-center my-10">
-          <CtaButton href={ROUTES.home}>DOWNLOAD NOW</CtaButton>
+          <CtaButton ariaLabel="Download Teen Patti Master APK">DOWNLOAD NOW</CtaButton>
         </div>
         <p className="text-center text-sm text-gray-400 mb-8">
           {APP_FACTS.ratingValue} ★★★★☆ ({APP_FACTS.ratingCountLabel}) · {APP_FACTS.price} · Android · Game · v{APP_FACTS.version} · {APP_FACTS.size}
         </p>
+        <p className="text-center text-xs text-gray-500 mb-8">
+          The APK file is served from {APP_DOWNLOAD_HOST} after you tap DOWNLOAD NOW on this site.
+        </p>
         <div className="flex justify-center mb-12">
           <Image
             src={IMAGES.logo}
-            alt="Teen Patti Show official APK icon"
+            alt="Teen Patti Master official APK icon"
             width={420}
             height={420}
             className="object-contain drop-shadow-2xl w-[260px] h-[260px] md:w-[320px] md:h-[320px]"
@@ -104,7 +107,7 @@ export default function DownloadPage() {
           <div className="space-y-6 max-w-4xl mx-auto">
             <div className="bg-primary rounded-lg p-6 border-l-4 border-accent">
               <h3 className="text-xl font-bold text-accent mb-3">1. Save the package from this domain</h3>
-              <p className="text-gray-300">Tap DOWNLOAD NOW and stay on teenpattishowgame.com.pk until the browser shows a completed APK. A redirect to an unrelated tracker is not this site’s install path.</p>
+              <p className="text-gray-300">Tap DOWNLOAD NOW on teenpattimastergame.com.pk and wait until the browser shows a completed APK. A silent hop to an unrelated tracker you were not told about is not this site’s install path. The file host after the tap is {APP_DOWNLOAD_HOST}.</p>
             </div>
             <div className="bg-primary rounded-lg p-6 border-l-4 border-cta">
               <h3 className="text-xl font-bold text-cta mb-3">2. Allow only that browser</h3>
@@ -112,7 +115,7 @@ export default function DownloadPage() {
             </div>
             <div className="bg-primary rounded-lg p-6 border-l-4 border-brand-orange">
               <h3 className="text-xl font-bold text-brand-orange mb-3">3. Open Downloads and confirm</h3>
-              <p className="text-gray-300">Tap the Teen Patti Show file, then Install. If Android warns about an unknown source, that is expected for a sideload. The icon should match the gold frame and three aces.</p>
+              <p className="text-gray-300">Tap the Teen Patti Master file, then Install. If Android warns about an unknown source, that is expected for a sideload. The icon should match the gold frame, coin pot, and red BIG WIN ribbon.</p>
             </div>
             <div className="bg-primary rounded-lg p-6 border-l-4 border-accent">
               <h3 className="text-xl font-bold text-accent mb-3">4. Register, then add money later</h3>
@@ -122,7 +125,7 @@ export default function DownloadPage() {
             </div>
           </div>
           <div className="flex justify-center mt-10">
-            <CtaButton href={ROUTES.home}>DOWNLOAD NOW</CtaButton>
+            <CtaButton ariaLabel="Download Teen Patti Master APK">DOWNLOAD NOW</CtaButton>
           </div>
         </div>
       </section>

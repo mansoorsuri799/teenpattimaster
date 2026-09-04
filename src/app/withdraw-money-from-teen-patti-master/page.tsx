@@ -6,17 +6,17 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { APP_FACTS, IMAGES, ROUTES, SITE_NAME, SITE_ORIGIN } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Withdraw from Teen Patti Show to EasyPaisa",
+  title: "Withdraw from Teen Patti Master to EasyPaisa",
   description:
-    "Cash out Teen Patti Show winnings to EasyPaisa, JazzCash, or a bank card. Binding rules, pending tickets, and the PKR limits players actually hit.",
+    "Cash out Teen Patti Master winnings to EasyPaisa, JazzCash, or a bank card. Binding rules, pending tickets, and the PKR limits players actually hit.",
   alternates: { canonical: `${SITE_ORIGIN}${ROUTES.withdraw}` },
   openGraph: {
-    title: "Withdraw from Teen Patti Show to EasyPaisa",
-    description: "Step-by-step Teen Patti Show withdrawal for EasyPaisa, JazzCash, and bank card.",
+    title: "Withdraw from Teen Patti Master to EasyPaisa",
+    description: "Step-by-step Teen Patti Master withdrawal for EasyPaisa, JazzCash, and bank card.",
     url: `${SITE_ORIGIN}${ROUTES.withdraw}`,
     siteName: SITE_NAME,
     type: "article",
-    images: [{ url: `${SITE_ORIGIN}${IMAGES.logo}`, width: 512, height: 512, alt: "Teen Patti Show app icon for EasyPaisa cash-out" }],
+    images: [{ url: `${SITE_ORIGIN}${IMAGES.logo}`, width: 512, height: 512, alt: "Teen Patti Master app icon for EasyPaisa cash-out" }],
   },
 };
 
@@ -57,7 +57,7 @@ export default function WithdrawPage() {
   const howTo = {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    name: "Withdraw money from Teen Patti Show",
+    name: "Withdraw money from Teen Patti Master",
     totalTime: "PT8M",
     step: steps.map((s) => ({ "@type": "HowToStep", name: s.title, text: s.body })),
   };
@@ -69,27 +69,27 @@ export default function WithdrawPage() {
         <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Withdraw", href: ROUTES.withdraw }]} />
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white">
-            Cash out <span className="text-accent">Teen Patti Show</span> to a wallet you own
+            Cash out <span className="text-accent">Teen Patti Master</span> to a wallet you own
           </h1>
           <p className="text-lg text-gray-300 max-w-4xl mx-auto">
             EasyPaisa, JazzCash, and bank card are the three exits. Most delays are a bind mismatch or an unfinished bonus, not a missing button.
           </p>
         </div>
         <div className="flex justify-center my-10">
-          <CtaButton href={ROUTES.home}>DOWNLOAD NOW</CtaButton>
+          <CtaButton ariaLabel="Download Teen Patti Master APK">DOWNLOAD NOW</CtaButton>
         </div>
         <p className="text-center text-sm text-gray-400 mb-8">
           {APP_FACTS.ratingValue} ★★★★☆ ({APP_FACTS.ratingCountLabel}) · {APP_FACTS.price} · Android · Game · v{APP_FACTS.version} · {APP_FACTS.size}
         </p>
         <div className="flex justify-center mb-12">
           <Image
-            src={IMAGES.logo}
-            alt="Teen Patti Show app icon for EasyPaisa cash-out"
-            width={420}
-            height={420}
-            className="object-contain drop-shadow-2xl w-[260px] h-[260px] md:w-[320px] md:h-[320px]"
+            src={IMAGES.withdraw}
+            alt="Teen Patti Master withdraw screen for EasyPaisa cash-out"
+            width={400}
+            height={711}
+            className="object-contain drop-shadow-2xl w-[240px] h-auto md:w-[280px]"
             priority
-            sizes="(max-width: 768px) 260px, 320px"
+            sizes="(max-width: 768px) 240px, 280px"
           />
         </div>
       </section>
@@ -125,7 +125,7 @@ export default function WithdrawPage() {
             ))}
           </div>
           <div className="flex justify-center mt-10">
-            <CtaButton href={ROUTES.home}>DOWNLOAD NOW</CtaButton>
+            <CtaButton ariaLabel="Download Teen Patti Master APK">DOWNLOAD NOW</CtaButton>
           </div>
         </div>
       </section>

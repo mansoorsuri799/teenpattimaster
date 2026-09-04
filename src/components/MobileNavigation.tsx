@@ -181,7 +181,7 @@ export default function MobileNavigation() {
       <MenuButton onClick={toggleMenu} isOpen={isOpen} />
 
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex flex-col bg-[#080A21]">
+        <div className="fixed inset-0 z-50 flex flex-col bg-primary">
           {/* Header */}
           <div className="flex justify-between items-center px-5 py-4 border-b border-gray-800/80">
             <Link href="/" className="flex items-center gap-3" onClick={closeMenu}>
@@ -199,7 +199,7 @@ export default function MobileNavigation() {
             </Link>
             <button
               onClick={closeMenu}
-              className="flex items-center justify-center w-10 h-10 rounded-full bg-[#1a1f35] text-white hover:bg-[#252b45] transition-colors"
+              className="flex items-center justify-center w-10 h-10 rounded-full bg-secondary text-white hover:bg-secondary/80 transition-colors"
               aria-label="Close menu"
             >
               <svg

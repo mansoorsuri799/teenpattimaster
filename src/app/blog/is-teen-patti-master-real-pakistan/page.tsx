@@ -9,7 +9,7 @@ import { BLOGS, IMAGES, ROUTES, SITE_NAME, SITE_ORIGIN } from "@/lib/site";
 const post = BLOGS[0];
 
 export const metadata: Metadata = {
-  title: "Is Teen Patti Show Real in Pakistan?",
+  title: "Is Teen Patti Master Real in Pakistan?",
   description: post.description,
   alternates: { canonical: `${SITE_ORIGIN}${ROUTES.blog}/${post.slug}` },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: `${SITE_ORIGIN}${ROUTES.blog}/${post.slug}`,
     siteName: SITE_NAME,
     type: "article",
-    images: [{ url: `${SITE_ORIGIN}${IMAGES.pakistan}`, width: 512, height: 512, alt: "Teen Patti Show Pakistan lobby screenshot" }],
+    images: [{ url: `${SITE_ORIGIN}${IMAGES.pakistan}`, width: 512, height: 512, alt: "Teen Patti Master Pakistan lobby screenshot" }],
   },
 };
 
@@ -31,7 +31,7 @@ export default function Page() {
         slug={post.slug}
         datePublished={post.datePublished}
         image={`${SITE_ORIGIN}${IMAGES.pakistan}`}
-        articleBody="Teen Patti Show is a real Android APK with JazzCash and EasyPaisa wallets. Fake files reuse the name. This article shows what to check in Pakistan before you add PKR."
+        articleBody="Teen Patti Master is a real Android APK with JazzCash and EasyPaisa wallets. Play Store clones and Softonic copies reuse the name. This article shows what to check in Pakistan before you add PKR."
       />
       <Breadcrumbs
         items={[
@@ -40,11 +40,11 @@ export default function Page() {
           { name: post.title, href: `${ROUTES.blog}/${post.slug}` },
         ]}
       />
-      <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">A real lobby, and a pile of fake files</h1>
-      <p className="text-gray-400 mb-8">4 September 2026 · {post.readMins} min read</p>
+      <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">A real lobby, and a pile of borrowed names</h1>
+      <p className="text-gray-400 mb-8">5 September 2026 · {post.readMins} min read</p>
       <Image
         src={IMAGES.pakistan}
-        alt="Teen Patti Show lobby branded for Pakistani Android users"
+        alt="Teen Patti Master lobby branded for Pakistani Android users"
         width={720}
         height={720}
         className="rounded-xl mb-8 w-full"
@@ -54,14 +54,14 @@ export default function Page() {
       />
       <div className="space-y-6 text-gray-300 leading-relaxed">
         <p>
-          People type “is Teen Patti Show real” because Softonic pages say the game has no cash, while WhatsApp forwards promise daily JazzCash. Both cannot be true for the same file. The lobby on teenpattishowgame.com.pk is a sideloaded Android APK with a wallet. That makes the product real as software. It does not make every APK that steals the name safe.
+          People type “is Teen Patti Master real” because Softonic pages treat it as a casual card toy, Play Store listings reuse the same title for coin-only clones, and WhatsApp forwards promise daily JazzCash. Those three stories cannot describe one file. The lobby on teenpattimastergame.com.pk is a sideloaded Android APK with a wallet. That makes the product real as software. It does not make every APK that steals the name safe.
         </p>
         <h2 className="text-2xl font-bold text-accent">What “real” should mean here</h2>
         <p>
-          Real, for a Pakistani player, means three checks: the icon matches the gold frame and three aces, the wallet lists JazzCash or EasyPaisa as named methods, and a cash-out can land on a number you bound yourself. If a file only offers “chips” and no PKR exit, you downloaded a different product that borrowed the title.
+          Real, for a Pakistani player, means three checks: the icon matches the gold frame, coin pot, and red BIG WIN ribbon; the wallet lists JazzCash or EasyPaisa as named methods; and a cash-out can land on a number you bound yourself. If a file only offers “chips” and no PKR exit, you downloaded a different product that borrowed the title.
         </p>
         <p>
-          Play Store results for “Teen Patti Showy” are casual clones. They rank because Google matches the words. They are not this APK. Install from the <Link href={ROUTES.download} className="text-accent hover:underline">on-domain download walkthrough</Link> and compare the package icon before you register.
+          Play Store results named Teen Patti Master rank because Google matches the words. They are not this APK. Start from the <Link href={ROUTES.download} className="text-accent hover:underline">on-domain download walkthrough</Link> and compare the package icon before you register.
         </p>
         <h2 className="text-2xl font-bold text-accent">How a first payout proves the wallet</h2>
         <p>
@@ -86,7 +86,7 @@ export default function Page() {
         </p>
         <h2 className="text-2xl font-bold text-accent">A short verdict</h2>
         <p>
-          Teen Patti Show, installed from this domain, is a real APK with real wallets and real ways to lose money. Fake files are also real — they just are not this product. Verify the icon, bind your own number, test a small cash-out, and ignore income promises.
+          Teen Patti Master, installed from this domain, is a real APK with real wallets and real ways to lose money. Fake files are also real — they just are not this product. Verify the icon, bind your own number, test a small cash-out, and ignore income promises.
         </p>
       </div>
       <div className="mt-10 flex justify-center">

@@ -1,6 +1,6 @@
 import { BLOGS, IMAGES, ROUTES, SITE_NAME, SITE_ORIGIN } from "@/lib/site";
 
-export const LASTMOD = "2026-09-04";
+export const LASTMOD = "2026-09-05";
 
 export type SitemapImage = {
   loc: string;
@@ -26,7 +26,7 @@ export const INDEXABLE_PAGES: SitemapPage[] = [
       {
         loc: IMAGES.logo,
         title: `${SITE_NAME} app icon`,
-        caption: `${SITE_NAME} gold-framed Android icon with three aces and the teenpattishowgame.com.pk mark.`,
+        caption: `${SITE_NAME} gold-framed Android icon with a coin pot, BIG WIN ribbon, and the teenpattimastergame.com.pk mark.`,
       },
     ],
   },

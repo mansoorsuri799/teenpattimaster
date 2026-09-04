@@ -25,7 +25,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 5,
   userScalable: true,
-  themeColor: "#0C0A14",
+  themeColor: "#071412",
   viewportFit: "cover",
   interactiveWidget: "resizes-visual",
 };
@@ -33,11 +33,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_ORIGIN),
   title: {
-    default: "Teen Patti Show Pakistan v1.0.8 Free Download Official APK",
+    default: "Teen Patti Master APK Pakistan — JazzCash Download",
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Teen Patti Show 2026 — Pakistan's trusted Teen Patti APK. Download free, play Teen Patti, Dragon vs Tiger and Rummy, and cash out with JazzCash and EasyPaisa.",
+    "Install Teen Patti Master v1.4(1) from teenpattimastergame.com.pk. Open Teen Patti, Dragon vs Tiger, and Rummy, then move PKR on JazzCash or EasyPaisa.",
   authors: [{ name: `${SITE_NAME} Team` }],
   creator: SITE_NAME,
   publisher: SITE_NAME,
@@ -67,9 +67,9 @@ export const metadata: Metadata = {
     canonical: SITE_ORIGIN,
   },
   openGraph: {
-    title: "Teen Patti Show Pakistan v1.0.8 Free Download Official APK",
+    title: "Teen Patti Master APK Pakistan — JazzCash Download",
     description:
-      "Download Teen Patti Show APK for Android. Play Teen Patti and more with JazzCash and EasyPaisa payouts.",
+      "Teen Patti Master APK for Android in Pakistan. JazzCash and EasyPaisa wallets, on-domain install steps, and a 3Patti Master lobby.",
     url: SITE_ORIGIN,
     siteName: SITE_NAME,
     locale: "en_PK",
@@ -79,21 +79,21 @@ export const metadata: Metadata = {
         url: `${SITE_ORIGIN}${IMAGES.og}`,
         width: 512,
         height: 512,
-        alt: "Teen Patti Show official APK icon for Pakistan",
+        alt: "Teen Patti Master official APK icon for Pakistan",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Teen Patti Show Pakistan v1.0.8 Free Download Official APK",
+    title: "Teen Patti Master APK Pakistan — JazzCash Download",
     description:
-      "Download Teen Patti Show APK for Android. Play Teen Patti and more with JazzCash and EasyPaisa payouts.",
+      "Teen Patti Master APK for Android in Pakistan. JazzCash and EasyPaisa wallets, on-domain install steps, and a 3Patti Master lobby.",
     images: [
       {
         url: `${SITE_ORIGIN}${IMAGES.twitter}`,
         width: 512,
         height: 512,
-        alt: "Teen Patti Show official APK icon for Pakistan",
+        alt: "Teen Patti Master official APK icon for Pakistan",
       },
     ],
   },
@@ -124,7 +124,7 @@ export default function RootLayout({
         className={`${poppins.className} antialiased bg-primary text-white min-h-screen flex flex-col`}
         style={{
           backgroundImage:
-            "radial-gradient(circle at 10% 20%, rgba(22, 16, 31, 0.55) 0%, rgba(12, 10, 20, 0.02) 90%)",
+            "radial-gradient(circle at 10% 20%, rgba(14, 31, 28, 0.55) 0%, rgba(7, 20, 18, 0.02) 90%)",
           backgroundAttachment: "fixed",
           minHeight: "100vh",
         }}

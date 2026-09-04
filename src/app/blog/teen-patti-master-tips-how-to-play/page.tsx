@@ -9,7 +9,7 @@ import { BLOGS, IMAGES, ROUTES, SITE_NAME, SITE_ORIGIN } from "@/lib/site";
 const post = BLOGS[3];
 
 export const metadata: Metadata = {
-  title: "Teen Patti Show Tips: Hands, Show, and Table Control",
+  title: "Teen Patti Master Tips: Hands, Show, and Table Control",
   description: post.description,
   alternates: { canonical: `${SITE_ORIGIN}${ROUTES.blog}/${post.slug}` },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: `${SITE_ORIGIN}${ROUTES.blog}/${post.slug}`,
     siteName: SITE_NAME,
     type: "article",
-    images: [{ url: `${SITE_ORIGIN}${IMAGES.logo}`, width: 512, height: 512, alt: "Teen Patti Show icon for the how-to-play guide" }],
+    images: [{ url: `${SITE_ORIGIN}${IMAGES.logo}`, width: 512, height: 512, alt: "Teen Patti Master icon for the how-to-play guide" }],
   },
 };
 
@@ -37,7 +37,7 @@ export default function Page() {
       },
       {
         "@type": "Question",
-        name: "What beats what in Teen Patti Show?",
+        name: "What beats what in Teen Patti Master?",
         acceptedAnswer: {
           "@type": "Answer",
           text: "Trail (three of a kind) beats pure sequence, which beats sequence, which beats colour, which beats pair, which beats a high card. Aces sit at the top of each family.",
@@ -54,7 +54,7 @@ export default function Page() {
         slug={post.slug}
         datePublished={post.datePublished}
         image={`${SITE_ORIGIN}${IMAGES.logo}`}
-        articleBody="Teen Patti hand ranks, when a show is allowed, blind versus seen play, and table habits for Pakistani beginners on Teen Patti Show."
+        articleBody="Teen Patti hand ranks, when a show is allowed, blind versus seen play, and table habits for Pakistani beginners on Teen Patti Master."
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />
       <Breadcrumbs
@@ -65,10 +65,10 @@ export default function Page() {
         ]}
       />
       <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">Learn the show before you raise the chaal</h1>
-      <p className="text-gray-400 mb-8">4 September 2026 · {post.readMins} min read</p>
+      <p className="text-gray-400 mb-8">5 September 2026 · {post.readMins} min read</p>
       <Image
         src={IMAGES.logo}
-        alt="Teen Patti Show icon introducing hand ranks and the showdown rule"
+        alt="Teen Patti Master icon introducing hand ranks and the showdown rule"
         width={320}
         height={320}
         className="rounded-xl mb-8 mx-auto"
@@ -77,7 +77,7 @@ export default function Page() {
       />
       <div className="space-y-6 text-gray-300 leading-relaxed">
         <p>
-          Wikipedia and rule sites already explain Teen Patti. They do not explain this lobby. Teen Patti Show is where Pakistani players place those rules next to a JazzCash wallet. This article covers hands, the show, and table habits. It is not a deposit tutorial — that lives on the <Link href={ROUTES.deposit} className="text-accent hover:underline">add-money page</Link>.
+          Wikipedia and rule sites already explain Teen Patti. They do not explain this lobby. Teen Patti Master is where Pakistani players place those rules next to a JazzCash wallet. This article covers hands, the show, and table habits. It is not a deposit tutorial — that lives on the <Link href={ROUTES.deposit} className="text-accent hover:underline">add-money page</Link>.
         </p>
         <h2 className="text-2xl font-bold text-accent">Hand ranks you should recite cold</h2>
         <ol className="list-decimal pl-5 space-y-2">
@@ -113,7 +113,7 @@ export default function Page() {
           <strong className="text-white">What beats what?</strong> Trail, pure sequence, sequence, colour, pair, high card.
         </p>
         <p>
-          Install only from the <Link href={ROUTES.download} className="text-accent hover:underline">APK page</Link>. If the file looks wrong, use the <Link href={`${ROUTES.blog}/${BLOGS[0].slug}`} className="text-accent hover:underline">real-or-fake checks</Link> before you sit down. Fortune Gems, Dragon vs Tiger, and Mines are covered in the <Link href={`${ROUTES.blog}/${BLOGS[5].slug}`} className="text-accent hover:underline">best games article</Link>.
+          Install only from the <Link href={ROUTES.download} className="text-accent hover:underline">APK page</Link>. If the file looks wrong, use the <Link href={`${ROUTES.blog}/${BLOGS[0].slug}`} className="text-accent hover:underline">real-or-fake checks</Link> before you sit down.
         </p>
       </div>
       <div className="mt-10 flex justify-center">

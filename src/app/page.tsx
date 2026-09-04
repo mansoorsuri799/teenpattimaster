@@ -4,19 +4,19 @@ import { Metadata } from "next";
 import { imageObjectLicensing } from "@/lib/schemaImageLicensing";
 import { APP_AGGREGATE_RATING, APP_SCREENSHOTS, FACEBOOK_PROFILE_URL, softwareApplicationLd } from "@/lib/appFacts";
 import CtaButton from "@/components/CtaButton";
-import { APP_FACTS, BLOGS, IMAGES, ROUTES, SITE_EMAIL, SITE_NAME, SITE_ORIGIN } from "@/lib/site";
+import { APP_DOWNLOAD_HOST, APP_FACTS, BLOGS, IMAGES, ROUTES, SITE_EMAIL, SITE_NAME, SITE_ORIGIN } from "@/lib/site";
 
-const PAGE_TITLE = "Teen Patti Show Pakistan v1.0.8 Free Download Official APK";
+const PAGE_TITLE = "Teen Patti Master APK Pakistan — JazzCash Download";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
   description:
-    "Install Teen Patti Show v1.0.8 from this Pakistan site. Open Teen Patti, Dragon vs Tiger, and Rummy, then move PKR through JazzCash or EasyPaisa on your own number.",
+    "Install Teen Patti Master v1.4(1) from this Pakistan site. Open Teen Patti, Dragon vs Tiger, and Rummy, then move PKR through JazzCash or EasyPaisa on your own number.",
   alternates: { canonical: SITE_ORIGIN },
   openGraph: {
     title: PAGE_TITLE,
     description:
-      "Teen Patti Show APK for Android in Pakistan. JazzCash and EasyPaisa wallets, on-domain install steps, and a lobby built around Teen Patti.",
+      "Teen Patti Master APK for Android in Pakistan. JazzCash and EasyPaisa wallets, on-domain install steps, and a 3Patti Master lobby.",
     url: SITE_ORIGIN,
     siteName: SITE_NAME,
     locale: "en_PK",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         url: `${SITE_ORIGIN}${IMAGES.logo}`,
         width: 512,
         height: 512,
-        alt: "Teen Patti Show – Official Teen Patti APK for Pakistan",
+        alt: "Teen Patti Master – Official 3Patti Master APK for Pakistan",
       },
     ],
   },
@@ -34,73 +34,69 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: PAGE_TITLE,
     description:
-      "Teen Patti Show APK for Android in Pakistan. JazzCash and EasyPaisa wallets, on-domain install steps, and a lobby built around Teen Patti.",
+      "Teen Patti Master APK for Android in Pakistan. JazzCash and EasyPaisa wallets, on-domain install steps, and a 3Patti Master lobby.",
     images: [`${SITE_ORIGIN}${IMAGES.twitter}`],
   },
 };
 
 const faqs = [
   {
-    q: "Do I need a first deposit before I can sit at a table?",
-    a: "No. Guest play and daily chips let you open tables before you add JazzCash or EasyPaisa. Real-money seats only appear after you fund the wallet.",
+    q: "Do I have to add JazzCash before I can sit at a table?",
+    a: "No. Guest play and the daily chip grant open tables before you fund anything. Cash seats only appear after JazzCash or EasyPaisa hits the wallet.",
+  },
+  {
+    q: "Where do I open a ticket if a deposit or cash-out stalls?",
+    a: "Start in-app live chat and paste the ticket ID. If chat is closed, use the WhatsApp number printed inside Help — not a number someone DMs you. This page’s FAQ covers the common stalls first.",
+  },
+  {
+    q: "How is this APK different from Play Store listings with the same name?",
+    a: "This file names JazzCash and EasyPaisa on the Shop screen, keeps Teen Patti next to Dragon vs Tiger and Rummy, and starts the install on teenpattimastergame.com.pk. Play Store and Softonic copies of the title are usually coin-only clones.",
+  },
+  {
+    q: "Is Teen Patti Master licensed in Pakistan, and is the file safe to sideload?",
+    a: "This site does not quote a public Pakistani gaming licence. Legal status can vary by city. The lobby encrypts login traffic and uses named wallets. Sideloaded APKs can be swapped, so start from this domain, match the gold-frame icon, and stay 18+.",
+  },
+  {
+    q: "Can the wallet go to zero in one sitting?",
+    a: "Yes. Blind raises, Dragon vs Tiger streaks, and unfinished bonus wagering all drain PKR. Only load an amount you can lose in one evening.",
+  },
+  {
+    q: "Does this website or the APK ship Urdu?",
+    a: "This website is English only. After login, Settings may list languages the build actually ships — we do not claim a bilingual site.",
+  },
+  {
+    q: "When does a referral actually credit?",
+    a: "Share the in-app referral link. The cut posts after a friend registers and plays. Saving a WhatsApp APK is not enough, and you do not get a second “claim” tap.",
+  },
+  {
+    q: "Is there an iPhone build?",
+    a: "No. Android APK only. Windows players can run the same file in an emulator — that path is on the PC guide, not an iOS store listing.",
   },
   {
     q: "What are the usual add and cash-out floors?",
-    a: "Shop tiles commonly start around PKR 200. Cash-out to JazzCash or EasyPaisa often starts near PKR 500. Bank-card exits can be larger, often near PKR 20,000 per ticket. Read the Shop and Withdraw screens the day you tap — those numbers win over any page.",
-  },
-  {
-    q: "Can one account bind JazzCash and EasyPaisa together?",
-    a: "Yes, if both numbers are yours. Bind each rail before you add on it. A cash-out must go back to a number you already attached — not a friend’s wallet you used once.",
+    a: "Shop tiles commonly start around PKR 200. Cash-out to JazzCash or EasyPaisa often starts near PKR 500. Bank-card exits can be larger, often near PKR 20,000 per ticket. Read the Shop and Withdraw screens the day you tap.",
   },
   {
     q: "Why is a withdrawal still pending?",
-    a: "Unfinished bonus wagering, an unbound number, or a second ticket in the same hour. Wait the 5–30 minute window, then open one live-chat thread with the ticket ID. Do not stack another request.",
+    a: "Unfinished bonus wagering, an unbound number, or a second ticket in the same hour. Wait the 5–30 minute window, then open one live-chat thread with the ticket ID.",
   },
   {
-    q: "Does Teen Patti Show charge a hidden cash-out fee?",
+    q: "Does Teen Patti Master charge a hidden cash-out fee?",
     a: "This lobby does not add a surprise fee on top of the amount you type. JazzCash or EasyPaisa may still take their own wallet charge. Read the line on the Withdraw screen before you confirm.",
   },
   {
     q: "I forgot the password. What now?",
-    a: "On the login screen tap Forgot Password. The OTP goes to the mobile number or email you registered. The full click path is in the password recovery guide. A helper who asks you to forward that OTP is not support.",
+    a: "On the login screen tap Forgot Password. The OTP goes to the mobile number or email you registered. The full click path is in the account and login guide.",
   },
   {
     q: "Android says App not installed. What did I miss?",
-    a: "Delete any older Teen Patti Show or lookalike file, free a few hundred MB, allow unknown apps for the browser you used, and install the APK from this domain again. A half-downloaded file also throws that error.",
-  },
-  {
-    q: "Where do I write if a deposit ticket stalls?",
-    a: "Use the in-app live chat first. If chat is closed, send the ticket number on the WhatsApp line printed inside the app, or read the FAQ block on this site.",
-  },
-  {
-    q: "Why would someone pick this lobby over a Play Store Teen Patti clone?",
-    a: "Play Store results named Teen Patti Showy are casual clones with no JazzCash cash-out. This APK lists named Pakistani wallets, a welcome match, and a referral cut — and you install it from teenpattishowgame.com.pk, not a random tracker.",
-  },
-  {
-    q: "Is real-money play licensed in Pakistan?",
-    a: "This site does not quote a public gaming licence. Encryption and local wallets reduce some file-level risk. They do not make cash tables legal in every city. Read your local rules before you deposit. 18+ only.",
-  },
-  {
-    q: "Can the wallet go to zero?",
-    a: "Yes. Blind raises, Dragon vs Tiger streaks, and unfinished bonus wagering all drain PKR. Only load an amount you can lose in one evening.",
-  },
-  {
-    q: "Can I switch the lobby language?",
-    a: "Yes. Open Settings after login and pick the language the build lists. This website stays English.",
-  },
-  {
-    q: "When does a referral credit land?",
-    a: "After the friend registers on your link and plays. The cut posts on its own. You do not need a second tap to claim it. Details sit in the welcome bonus and referral article.",
-  },
-  {
-    q: "Is there an iPhone build?",
-    a: "No APK for iOS. Android only. Windows players can follow the PC guide to run the same file in an emulator.",
+    a: "Delete any older Teen Patti Master or lookalike file, free a few hundred MB, allow unknown apps for the browser you used, and install the APK from this domain again.",
   },
 ];
 
 const infoRows = [
   ["App Name", APP_FACTS.name],
-  ["Developer", "Teen Patti Show dev"],
+  ["Developer", "Teen Patti Master"],
   ["Category", APP_FACTS.category],
   ["Size", APP_FACTS.size],
   ["Latest Version", `V${APP_FACTS.version}`],
@@ -109,51 +105,51 @@ const infoRows = [
   ["Downloads", APP_FACTS.downloads],
   ["Rating Count", `${APP_FACTS.ratingCount}+`],
   ["Language", APP_FACTS.language],
-  ["Price", "Free (0$)"],
+  ["Price", "Free APK"],
   ["Wallets", "JazzCash, EasyPaisa"],
   ["Age", "18+"],
 ];
 
 const features = [
   {
-    title: "1. Cash leaves the table",
-    body: "A winning Teen Patti pot, a Rummy score, or a Dragon vs Tiger hit posts to the same wallet you funded. Cash-out uses JazzCash or EasyPaisa on the number you bound — not a gift-card detour.",
+    title: "Payouts land on the number you bound",
+    body: "A winning pot, a Rummy score, or a Dragon vs Tiger hit posts to the same wallet you funded. Cash-out uses JazzCash or EasyPaisa on that number. That is a payout path, not a salary and not a promise you will leave richer.",
   },
   {
-    title: "2. Wallet in a few taps",
-    body: "Open Wallet, pick JazzCash or EasyPaisa, type the PKR amount, and finish the prompt in your own wallet app. Same path in reverse when you send money out.",
+    title: "Add and cash-out on the same Shop screen",
+    body: "Open Wallet, pick JazzCash or EasyPaisa, type the PKR amount, and finish the prompt in your own wallet app. The reverse path sends money out. Bind the number first so a later cash-out does not sit on pending.",
   },
   {
-    title: "3. Lobby you can scan at night",
-    body: "Card rooms, slots, and poker sit in separate rows. Wallet and bonus tiles stay on the home strip so you are not hunting through five menus before a hand.",
+    title: "Home strip instead of a mixed casino wall",
+    body: "Card rooms, slots, and poker sit on separate rows. Wallet and bonus tiles stay on that strip, so a table is one or two taps away instead of five menus.",
   },
   {
-    title: "4. More than one Teen Patti flavour",
-    body: "Classic Teen Patti, Teenpatti 20-20, Rummy, poker, Andar Bahar, and a short slots row share one install. Stake limits change by table, so a small wallet can still sit down.",
+    title: "Teen Patti plus the faster rooms in one file",
+    body: "Classic Teen Patti, Teenpatti 20-20, Rummy, poker, Andar Bahar, and a short slots row share one install. Stake limits change by table, so a small wallet can still sit next to a faster Dragon vs Tiger room.",
   },
   {
-    title: "5. Login chips that are not a deposit",
-    body: "A daily grant and the occasional weekly drop let you learn a show or a Dragon vs Tiger round before you decide whether JazzCash is worth opening.",
+    title: "Daily chips before you open JazzCash",
+    body: "A daily grant and the occasional weekly drop let you learn a show or a Dragon vs Tiger round first. Those chips are for play, not a withdrawable cash-out on day one.",
   },
   {
-    title: "6. A cut when friends stay",
-    body: "Your referral link credits you when someone signs up and actually plays. The commission posts without a second claim screen.",
+    title: "Referral cut only after they play",
+    body: "The in-app referral link credits you when someone signs up and actually plays. The commission posts without a second claim screen. A random WhatsApp APK is not that link.",
   },
   {
-    title: "7. A 38MB file on older Androids",
-    body: "The package is built for Android 5.0 and up. Most mid-range Pakistani phones open the lobby without a long splash, as long as you are not already out of storage.",
+    title: "38MB on Android 5.0 and up",
+    body: "Most mid-range Pakistani phones open the lobby without a long splash, as long as you still have a few hundred MB free to unpack the file.",
   },
   {
-    title: "8. Payments on named rails",
-    body: "JazzCash and EasyPaisa are the rails this wallet lists. That is not a licence. It does mean you can match the on-screen number to the SIM in your pocket. Install only from this domain.",
+    title: "Named wallets — not a licence letter",
+    body: "JazzCash and EasyPaisa appear by name so you can match the number to the SIM in your pocket. That is not a licence. Start the install from this domain and refuse a helper who asks for a PIN or OTP.",
   },
   {
-    title: "9. No fee to open the APK",
-    body: "The file itself is free. Sign-up does not charge. Guest chips exist so you can see a table before you send PKR.",
+    title: "No install fee, guest chips included",
+    body: "The APK itself is free. Sign-up does not charge. Guest chips exist so you can see a table before you send PKR.",
   },
   {
-    title: "10. Chat that stays inside the app",
-    body: "Live chat covers stuck deposits, a locked OTP, or a cash-out that sits on pending. WhatsApp is the backup line printed in the help screen.",
+    title: "Live chat, then the Help-screen WhatsApp",
+    body: "Live chat covers stuck deposits, a locked OTP, or a cash-out that sits on pending. WhatsApp is the backup line printed in Help. Use one channel per ticket.",
   },
 ];
 
@@ -168,7 +164,7 @@ function GameGrid({ items }: { items: string[] }) {
         const hot = name.includes("(Hot)");
         const label = name.replace(" (Hot)", "");
         return (
-          <div key={name} className="bg-[#16101F] p-4 rounded-lg">
+          <div key={name} className="bg-secondary p-4 rounded-lg">
             <p className="text-white font-medium">
               {label} {hot && <span className="text-brand-orange">(Hot)</span>}
             </p>
@@ -188,7 +184,7 @@ export default function Home() {
         "@id": `${SITE_ORIGIN}/#website`,
         url: `${SITE_ORIGIN}/`,
         name: SITE_NAME,
-        description: "Pakistan Teen Patti APK with JazzCash and EasyPaisa wallets, installed from teenpattishowgame.com.pk.",
+        description: "Pakistan Teen Patti Master APK with JazzCash and EasyPaisa wallets, installed from teenpattimastergame.com.pk.",
         inLanguage: "en",
         publisher: { "@id": `${SITE_ORIGIN}/#organization` },
       },
@@ -204,7 +200,7 @@ export default function Home() {
           width: 512,
           height: 512,
           name: SITE_NAME,
-          description: "Teen Patti Show – Official Teen Patti APK for Pakistan",
+          description: "Teen Patti Master – Official 3Patti Master APK for Pakistan",
           ...imageObjectLicensing,
         },
       },
@@ -244,12 +240,12 @@ export default function Home() {
       },
       {
         "@type": "HowTo",
-        name: "Install Teen Patti Show and open a first table",
+        name: "Install Teen Patti Master and open a first table",
         totalTime: "PT8M",
         step: [
-          { "@type": "HowToStep", name: "Get the APK from this site", text: "Open teenpattishowgame.com.pk and save the Teen Patti Show APK to the phone." },
+          { "@type": "HowToStep", name: "Get the APK from this site", text: "Open teenpattimastergame.com.pk and start the Teen Patti Master APK save from the download page." },
           { "@type": "HowToStep", name: "Allow that browser to install", text: "Tap the file and permit Install unknown apps for the browser you used." },
-          { "@type": "HowToStep", name: "Open the gold-frame icon", text: "Launch Teen Patti Show. Sign in with a Pakistani mobile number or stay on guest chips." },
+          { "@type": "HowToStep", name: "Open the gold-frame icon", text: "Launch Teen Patti Master. Sign in with a Pakistani mobile number or stay on guest chips." },
           { "@type": "HowToStep", name: "Sit at a table", text: "Collect the welcome chips, pick Teen Patti or another listed game, and start a hand." },
         ],
       },
@@ -266,12 +262,12 @@ export default function Home() {
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white">{SITE_NAME}</h1>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
-                <span className="text-accent">Teen Patti tables, JazzCash wallets, one APK for Pakistan</span>
+                <span className="text-accent">3Patti Master tables, JazzCash wallets, one Android APK for Pakistan</span>
               </h2>
             </div>
 
             <p className="text-lg text-gray-300 leading-relaxed">
-              <Link href={ROUTES.download} className="text-accent hover:underline">Teen Patti Show</Link> is the Android lobby we host on this domain: Teen Patti, Dragon vs Tiger, Rummy, and a short slots row, with JazzCash and EasyPaisa on the wallet screen. Tap the button, save the file here, then compare the gold-frame icon to the one on this page before you add money.
+              <Link href={ROUTES.download} className="text-accent hover:underline">Teen Patti Master</Link> is the Android lobby we host on this domain: Teen Patti, Dragon vs Tiger, Rummy, and a short slots row, with JazzCash and EasyPaisa on the wallet screen. Softonic and Play Store listings reuse the same name for casual clones. Start here, save the file, then match the gold frame, coin pot, and red BIG WIN ribbon to the icon on this page before you add money.
             </p>
 
             <p className="text-white text-sm font-medium">
@@ -279,25 +275,28 @@ export default function Home() {
             </p>
 
             <div className="flex justify-center my-8">
-              <CtaButton ariaLabel="Download Teen Patti Show app for Android">DOWNLOAD NOW</CtaButton>
+              <CtaButton ariaLabel="Download Teen Patti Master app for Android">DOWNLOAD NOW</CtaButton>
             </div>
+            <p className="text-gray-400 text-xs text-center">
+              The APK save starts from this site. The file host is {APP_DOWNLOAD_HOST}.
+            </p>
 
             <div className="flex flex-row gap-4 justify-center mt-8 mb-4" style={{ minHeight: "120px" }}>
-              <div className="bg-[#16101F] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: "120px" }}>
+              <div className="bg-secondary p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: "120px" }}>
                 <svg className="w-6 h-6 mb-3 text-accent mx-auto" fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
-                  <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+                  <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79-4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
                 </svg>
                 <div className="text-white text-2xl font-bold mb-1">{APP_FACTS.downloads}</div>
                 <div className="text-gray-400 text-sm">Downloads</div>
               </div>
-              <div className="bg-[#16101F] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: "120px" }}>
+              <div className="bg-secondary p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: "120px" }}>
                 <svg className="w-6 h-6 mb-3 text-accent mx-auto" fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
                   <path d="M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7v2H8v2h8v-2h-2v-2h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H3V4h18v12z" />
                 </svg>
                 <div className="text-white text-2xl font-bold mb-1">200K+</div>
                 <div className="text-gray-400 text-sm">Ratings</div>
               </div>
-              <div className="bg-[#16101F] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: "120px" }}>
+              <div className="bg-secondary p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: "120px" }}>
                 <svg className="w-6 h-6 mb-3 text-accent mx-auto" fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
                   <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
                 </svg>
@@ -311,8 +310,8 @@ export default function Home() {
           <figure className="mt-8 md:mt-0 md:w-1/2 flex justify-center md:justify-end">
             <Image
               src={IMAGES.logo}
-              alt="Teen Patti Show – Official Teen Patti APK for Pakistan"
-              title="Teen Patti Show – Official Teen Patti APK for Pakistan"
+              alt="Teen Patti Master – Official 3Patti Master APK for Pakistan"
+              title="Teen Patti Master – Official 3Patti Master APK for Pakistan"
               width={320}
               height={320}
               className="object-contain drop-shadow-2xl w-[260px] h-[260px] md:w-[320px] md:h-[320px]"
@@ -343,19 +342,19 @@ export default function Home() {
 
       <section id="overview" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-accent">How this lobby is laid out</h2>
+          <h2 className="text-3xl font-bold mb-8 text-accent">What this 3Patti Master lobby actually is</h2>
           <p className="text-gray-300 leading-relaxed">
-            The home strip splits card rooms, slots, and poker so you pick a seat instead of scrolling a mixed casino wall. Controls stay large enough for one-thumb play. You can fund a small JazzCash amount and still reach cash tables, or stay on guest chips and the daily grant until you have seen a show. The install path lives on this site — not a Play Store clone with a similar name.
+            The home strip splits card rooms, slots, and poker so you pick a seat instead of scrolling a mixed casino wall. Controls stay large enough for one-thumb play. You can fund a small JazzCash amount and still reach cash tables, or stay on guest chips and the daily grant until you have seen a show. The install path starts on this site — not a Play Store clone or a Softonic doorway that borrowed the title.
           </p>
         </div>
       </section>
 
-      <section id="what-is-teen-patti-show" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section id="what-is-teen-patti-master" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-accent">What Teen Patti Show actually is</h2>
+          <h2 className="text-3xl font-bold mb-8 text-accent">How Teen Patti Master differs from the India pages that rank</h2>
           <div className="space-y-6">
             <p className="text-gray-300 leading-relaxed">
-              Teen Patti Show is an Android card-and-table APK centred on Teen Patti, with Dragon vs Tiger, Rummy, and a few faster rooms in the same file. You add PKR through JazzCash or EasyPaisa and send a cash-out to the same method on the number you bound. A first-deposit match, a daily chip drop, and a referral cut sit on top of that wallet — they are not a salary.
+              Teen Patti Master is an Android card-and-table APK centred on Teen Patti, with Dragon vs Tiger, Rummy, and a few faster rooms in the same file. You add PKR through JazzCash or EasyPaisa and send a cash-out to the same method on the number you bound. A first-deposit match, a daily chip drop, and a referral cut sit on top of that wallet — they are not a salary and they are not the ₹3,000 / UPI story published on Indian “official” pages.
             </p>
             <p className="text-gray-300 leading-relaxed">
               Menus stay short: games, wallet, bonuses. Skill tables (Teen Patti, Rummy, poker) sit next to quicker rooms. If you only want a three-card show, you never have to open slots. If you want a two-minute Dragon vs Tiger round, that tile is on the same strip.
@@ -364,15 +363,15 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="why-teen-patti-show-popular" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section id="why-teen-patti-master-popular" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-accent">Why this APK gets passed around in Pakistan</h2>
+          <h2 className="text-3xl font-bold mb-8 text-accent">Why Pakistani players pass this APK around</h2>
           <div className="space-y-6">
             <p className="text-gray-300 leading-relaxed">
-              Players share it because the wallet names JazzCash and EasyPaisa, the rules for a show are the ones they already know, and the lobby is a card room first. Softonic-style pages that call every Teen Patti file “offline fun” are describing a different product.
+              People share it because the wallet names JazzCash and EasyPaisa, the rules for a show are the ones they already know, and the lobby is a card room first. Softonic-style pages that call every Teen Patti Master file “offline fun” are describing a different product.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              One install holds Teen Patti, Dragon vs Tiger, Rummy, poker, and the slots row. Daily chips and a referral cut keep people opening the icon. The 38MB package still runs on a lot of Android 5+ phones. Deposits and cash-outs stay on the two wallets most Pakistani numbers already have.
+              One install holds Teen Patti, Dragon vs Tiger, Rummy, poker, and the slots row. Daily chips and a referral cut keep the icon on the home screen. The 38MB package still runs on a lot of Android 5+ phones. Adds and cash-outs stay on the two wallets most Pakistani numbers already have.
             </p>
           </div>
         </div>
@@ -383,9 +382,9 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8 text-accent">Open a first table in six steps</h2>
           <p className="text-gray-300 leading-relaxed mb-4">Do this on the phone that will hold the wallet:</p>
           <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li>Stay on teenpattishowgame.com.pk and <Link href={ROUTES.download} className="text-accent hover:underline font-semibold">save the APK from the download page</Link>.</li>
+            <li>Stay on teenpattimastergame.com.pk and <Link href={ROUTES.download} className="text-accent hover:underline font-semibold">save the APK from the download page</Link>.</li>
             <li>Tap the file. Allow Install unknown apps for that browser only.</li>
-            <li>Wait for the gold-frame icon — three aces — then open it.</li>
+            <li>Wait for the gold-frame icon — coin pot, red BIG WIN ribbon, 3PATTI MASTER on top — then open it.</li>
             <li>Sign in with your Pakistani mobile number, or stay on guest chips for a look.</li>
             <li>Take the welcome chips if they appear. Do not treat them as withdrawable cash.</li>
             <li>Pick a Teen Patti table or another listed game and play a hand you can afford to lose.</li>
@@ -395,15 +394,15 @@ export default function Home() {
 
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-primary rounded-xl p-8">
-          <h2 className="text-4xl font-bold mb-12 text-accent text-center">Lobby screens you should recognise</h2>
+          <h2 className="text-4xl font-bold mb-12 text-accent text-center">Screens you should recognise</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { src: IMAGES.pakistan, alt: "Teen Patti Show game interface on Android", label: "Table view" },
-              { src: IMAGES.apk, alt: "Teen Patti Show APK overview screen", label: "Home strip" },
-              { src: IMAGES.bonuses, alt: "Teen Patti Show free bonuses and rewards panel", label: "Bonus panel" },
-              { src: IMAGES.addMoney, alt: "Teen Patti Show deposit money screen", label: "Add PKR" },
-              { src: IMAGES.withdraw, alt: "Teen Patti Show withdraw money screen", label: "Cash out" },
-              { src: IMAGES.refer, alt: "Teen Patti Show referral and win bonus screen", label: "Referral tile" },
+              { src: IMAGES.pakistan, alt: "Teen Patti Master lobby branded for Pakistani Android users", label: "Table view" },
+              { src: IMAGES.apk, alt: "Teen Patti Master APK home strip with card rooms and wallet tiles", label: "Home strip" },
+              { src: IMAGES.bonuses, alt: "Teen Patti Master bonus and event panel on Android", label: "Bonus panel" },
+              { src: IMAGES.addMoney, alt: "Teen Patti Master JazzCash and EasyPaisa add-money screen", label: "Add PKR" },
+              { src: IMAGES.withdraw, alt: "Teen Patti Master withdraw screen for JazzCash cash-out", label: "Cash out" },
+              { src: IMAGES.refer, alt: "Teen Patti Master refer-and-earn tile with share code", label: "Referral tile" },
             ].map((shot) => (
               <div key={shot.label} className="w-full">
                 <div className="rounded-lg overflow-hidden shadow-2xl">
@@ -425,9 +424,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="teen-patti-show-features" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section id="teen-patti-master-features" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-accent">What this APK actually does well</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-accent">What the APK does well</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {features.map((item) => (
               <div key={item.title} className="bg-secondary px-8 py-8 rounded-lg card-glow">
@@ -439,37 +438,37 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="teen-patti-show-games" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section id="teen-patti-master-games" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Rooms you can open after install</h2>
           <p className="text-gray-300 mb-6">
-            Fortune Gems, Dragon vs Tiger, and Mines are the rooms people ask for first. A longer pick sits in the <Link href={`${ROUTES.blog}/best-games-teen-patti-show`} className="text-accent hover:underline">best games guide</Link>.
+            Fortune Gems, Dragon vs Tiger, and Mines are the rooms people ask for first. Hand ranks and when a show is allowed sit in the <Link href={`${ROUTES.blog}/${BLOGS[3].slug}`} className="text-accent hover:underline">table-control guide</Link>.
           </p>
           <div className="mb-8">
-            <h3 className="text-2xl font-semibold mb-4 text-accent">1. Fast multiplayer rooms</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-accent">Fast multiplayer rooms</h3>
             <GameGrid items={multiplayer} />
           </div>
           <div className="mb-8">
-            <h3 className="text-2xl font-semibold mb-4 text-accent">2. Skill tables</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-accent">Skill tables</h3>
             <GameGrid items={skillGames} />
           </div>
           <div>
-            <h3 className="text-2xl font-semibold mb-4 text-accent">3. Slots and short spins</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-accent">Slots and short spins</h3>
             <GameGrid items={slots} />
           </div>
         </div>
       </section>
 
-      <section id="teen-patti-show-bonuses" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section id="teen-patti-master-bonuses" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">First-deposit match, rebate, and VIP extras</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Welcome match, rebate, and VIP extras</h2>
 
           <div className="mb-8">
-            <h3 className="text-xl font-semibold mb-4 text-accent">1. Welcome match on the first add</h3>
-            <p className="text-gray-300 mb-4">A new account that has never deposited can get a 100% match on that first add. Wagering still applies — the extra chips are not a cash-out on day one. Read the <Link href={`${ROUTES.blog}/teen-patti-show-welcome-bonus-referral`} className="text-accent hover:underline">bonus and referral note</Link> before you treat a match as income.</p>
+            <h3 className="text-xl font-semibold mb-4 text-accent">Welcome match on the first add</h3>
+            <p className="text-gray-300 mb-4">A new account that has never deposited can get a 100% match on that first add. Wagering still applies — the extra chips are not a cash-out on day one. Read the <Link href={`${ROUTES.blog}/${BLOGS[2].slug}`} className="text-accent hover:underline">bonus and referral note</Link> before you treat a match as income.</p>
             <div className="overflow-x-auto">
               <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-                <thead className="bg-[#16101F]">
+                <thead className="bg-secondary">
                   <tr>
                     <th className="py-3 px-6 text-left text-white font-semibold">Deposit Amount (PKR)</th>
                     <th className="py-3 px-6 text-left text-white font-semibold">Bonus Amount (PKR)</th>
@@ -495,11 +494,11 @@ export default function Home() {
           </div>
 
           <div className="mb-8">
-            <h3 className="text-xl font-semibold mb-4 text-accent">2. Recharge rebate after you add again</h3>
+            <h3 className="text-xl font-semibold mb-4 text-accent">Recharge rebate after you add again</h3>
             <p className="text-gray-300 mb-4">Later adds can unlock a rebate band. Higher bands need a larger add and a higher wager multiple. Check the in-app promo tile — the table below is the published scale, not a promise that every account sees every band.</p>
             <div className="overflow-x-auto">
               <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-                <thead className="bg-[#16101F]">
+                <thead className="bg-secondary">
                   <tr>
                     <th className="py-3 px-6 text-left text-white font-semibold">Rebate</th>
                     <th className="py-3 px-6 text-left text-white font-semibold">Recharge Required</th>
@@ -527,11 +526,11 @@ export default function Home() {
           </div>
 
           <div>
-            <h3 className="text-xl font-semibold mb-4 text-accent">3. VIP rebate on adds of 3,000 PKR or more</h3>
+            <h3 className="text-xl font-semibold mb-4 text-accent">VIP rebate on adds of 3,000 PKR or more</h3>
             <p className="text-gray-300 mb-4">A separate daily rebate can appear once an add hits 3,000 PKR. The percent follows VIP level. Claim it in the promo screen the same day — leftover claims do not always roll over.</p>
             <div className="overflow-x-auto">
               <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-                <thead className="bg-[#16101F]">
+                <thead className="bg-secondary">
                   <tr>
                     <th className="py-3 px-6 text-left text-white font-semibold">VIP Level</th>
                     <th className="py-3 px-6 text-left text-white font-semibold">Rebate</th>
@@ -564,11 +563,11 @@ export default function Home() {
 
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Get v1.0.8 onto the phone</h2>
-          <p className="text-gray-300 mb-4">Use the phone that will hold JazzCash or EasyPaisa. Do not hunt a third-party APK mirror.</p>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Get v1.4(1) onto the phone</h2>
+          <p className="text-gray-300 mb-4">Use the phone that will hold JazzCash or EasyPaisa. Do not hunt a Softonic or APKPure mirror that reused the name.</p>
           <ol className="list-decimal pl-5 space-y-3 text-gray-300 mb-8">
             <li>Open Chrome or your usual browser on Android.</li>
-            <li>Type teenpattishowgame.com.pk — or stay on this tab if you are already here.</li>
+            <li>Type teenpattimastergame.com.pk — or stay on this tab if you are already here.</li>
             <li>Open the download page and tap DOWNLOAD NOW.</li>
             <li>Let the 38MB file finish. Do not switch to a WhatsApp “old version” while it runs.</li>
             <li>The APK lands in Downloads. Check the filename before you tap it.</li>
@@ -580,7 +579,7 @@ export default function Home() {
             <li>When Android blocks the install, open the prompt and allow that browser only.</li>
             <li>If there is no prompt, go to Settings → Security → Install unknown apps and enable the same browser.</li>
             <li>Open Files or My Files and open the Downloads folder.</li>
-            <li>Tap the Teen Patti Show APK. Confirm install.</li>
+            <li>Tap the Teen Patti Master APK. Confirm install.</li>
             <li>Wait until the progress bar finishes. Do not pull the notification away mid-install.</li>
             <li>The gold-frame icon should appear on the home screen or in the app drawer.</li>
             <li>Open it. If the icon or package name does not match this site, delete the file and start again here.</li>
@@ -589,7 +588,7 @@ export default function Home() {
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Phone specs before you tap install</h2>
           <div className="overflow-x-auto mb-8">
             <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-              <thead className="bg-[#16101F]">
+              <thead className="bg-secondary">
                 <tr>
                   <th className="py-3 px-6 text-left text-white font-semibold">System</th>
                   <th className="py-3 px-6 text-left text-white font-semibold">Minimum</th>
@@ -601,7 +600,7 @@ export default function Home() {
                 <tr className="bg-secondary/50"><td className="py-3 px-6">RAM</td><td className="py-3 px-6">2GB or more</td><td className="py-3 px-6">4GB or more</td></tr>
                 <tr className="bg-primary/50"><td className="py-3 px-6">Storage Space</td><td className="py-3 px-6">At least 500 MB free</td><td className="py-3 px-6">1GB free space</td></tr>
                 <tr className="bg-secondary/50"><td className="py-3 px-6">Processor</td><td className="py-3 px-6">Quad-core 1.5 GHz</td><td className="py-3 px-6">Octa-core 2.0 GHz</td></tr>
-                <tr className="bg-primary/50"><td className="py-3 px-6">Internet</td><td className="py-3 px-6">Stable 3G or WiFi</td><td className="py-3 px-6">Fast &amp; stable 4G or WiFi</td></tr>
+                <tr className="bg-primary/50"><td className="py-3 px-6">Internet</td><td className="py-3 px-6">Stable 3G or WiFi</td><td className="py-3 px-6">Fast and stable 4G or WiFi</td></tr>
               </tbody>
             </table>
           </div>
@@ -613,7 +612,7 @@ export default function Home() {
 
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">What changed in version 1.0.8</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">What changed in version 1.4(1)</h2>
           <ol className="list-decimal pl-5 space-y-3 text-gray-300">
             <li>Table lighting and card motion are cleaner on mid-range screens.</li>
             <li>The lobby opens faster after a cold start on Android 8+.</li>
@@ -632,17 +631,17 @@ export default function Home() {
       <section id="register-login" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Create a login and get back in</h2>
-          <h3 className="text-xl font-semibold mb-4 text-accent">1. Register on a number you still own</h3>
-          <p className="text-gray-300 mb-4">The <Link href={`${ROUTES.blog}/teen-patti-show-account-and-login`} className="text-accent hover:underline">account and login article</Link> covers a locked OTP. The short path:</p>
+          <h3 className="text-xl font-semibold mb-4 text-accent">Register on a number you still own</h3>
+          <p className="text-gray-300 mb-4">The <Link href={`${ROUTES.blog}/${BLOGS[1].slug}`} className="text-accent hover:underline">account, login, and password article</Link> covers a locked OTP. The short path:</p>
           <ol className="list-decimal pl-5 space-y-3 text-gray-300 mb-8">
-            <li>Open Teen Patti Show from the gold-frame icon.</li>
+            <li>Open Teen Patti Master from the gold-frame icon.</li>
             <li>Tap Register or Sign Up on the first screen.</li>
             <li>Enter the mobile number (or email) you can still receive an OTP on.</li>
             <li>Set a password you do not reuse on JazzCash.</li>
             <li>Type the OTP. Do not share it in a “support” chat.</li>
             <li>When the lobby loads, bind that same number before you add money.</li>
           </ol>
-          <h3 className="text-xl font-semibold mb-4 text-accent">2. Sign in on the same device later</h3>
+          <h3 className="text-xl font-semibold mb-4 text-accent">Sign in on the same device later</h3>
           <p className="text-gray-300 mb-4">Guest chips do not protect a wallet. Use the registered login before you deposit.</p>
           <ol className="list-decimal pl-5 space-y-3 text-gray-300">
             <li>Open the app.</li>
@@ -660,12 +659,12 @@ export default function Home() {
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">JazzCash and EasyPaisa on this wallet</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-            <div className="bg-[#16101F] p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-accent">1. JazzCash</h3>
+            <div className="bg-primary p-6 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-accent">JazzCash</h3>
               <p className="text-gray-300">JazzCash is the add and cash-out rail most Jazz numbers already use. You confirm the amount in the JazzCash app on your own SIM. A ticket that sits on pending is usually an unbound number or unfinished bonus play — open one chat, not a second withdrawal. Full click path is on the <Link href={ROUTES.deposit} className="text-accent hover:underline">JazzCash deposit steps</Link>.</p>
             </div>
-            <div className="bg-[#16101F] p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-accent">2. EasyPaisa</h3>
+            <div className="bg-primary p-6 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-accent">EasyPaisa</h3>
               <p className="text-gray-300">EasyPaisa is the other named method on the same wallet screen. Bind the EasyPaisa number you control before the first add. Cash-out goes back to that number, not a friend’s wallet. The <Link href={ROUTES.withdraw} className="text-accent hover:underline">EasyPaisa cash-out steps</Link> list the bind rules.</p>
             </div>
           </div>
@@ -712,11 +711,11 @@ export default function Home() {
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Add and cash-out floors that players actually hit</h2>
           <p className="text-gray-300 mb-6">
-            Competitor pages often print one “instant / unlimited” row. The Shop tile in Teen Patti Show is the source of truth the day you tap. These are the ranges that match the <Link href={ROUTES.deposit} className="text-accent hover:underline">deposit</Link> and <Link href={ROUTES.withdraw} className="text-accent hover:underline">withdraw</Link> guides on this site.
+            Competitor pages often print one “instant / unlimited” row. The Shop tile in Teen Patti Master is the source of truth the day you tap. These are the ranges that match the <Link href={ROUTES.deposit} className="text-accent hover:underline">deposit</Link> and <Link href={ROUTES.withdraw} className="text-accent hover:underline">withdraw</Link> guides on this site.
           </p>
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-              <thead className="bg-[#16101F]">
+              <thead className="bg-secondary">
                 <tr>
                   <th className="py-3 px-6 text-left text-white font-semibold">Move</th>
                   <th className="py-3 px-6 text-left text-white font-semibold">Typical floor</th>
@@ -737,9 +736,9 @@ export default function Home() {
 
       <section id="refer-and-earn" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Refer &amp; Earn without treating friends as a salary</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Refer and earn without treating friends as a salary</h2>
           <p className="text-gray-300 mb-4">
-            Open the Refer &amp; Earn tile after login and copy the link from that screen. You earn when the friend registers and plays — not when they only save a WhatsApp APK. Other sites publish weekly PKR ladders and “25% forever” lines. Treat those as their marketing. The cut that matters is the one printed inside this lobby the day you share.
+            Open the Refer and Earn tile after login and copy the link from that screen. You earn when the friend registers and plays — not when they only save a WhatsApp APK. Other sites publish weekly PKR ladders and “become a millionaire” lines. Treat those as their marketing. The cut that matters is the one printed inside this lobby the day you share.
           </p>
           <ul className="list-disc pl-5 space-y-3 text-gray-300 mb-4">
             <li>Send the link, not your password and not a random file.</li>
@@ -747,29 +746,29 @@ export default function Home() {
             <li>A first-deposit match on their account is their bonus, not yours.</li>
           </ul>
           <p className="text-gray-300">
-            Wagering and VIP extras sit next to this in the <Link href={`${ROUTES.blog}/teen-patti-show-welcome-bonus-referral`} className="text-accent hover:underline">welcome bonus and referral article</Link>.
+            Wagering and VIP extras sit next to this in the <Link href={`${ROUTES.blog}/${BLOGS[2].slug}`} className="text-accent hover:underline">welcome bonus and referral article</Link>.
           </p>
         </div>
       </section>
 
       <section id="vs-clones" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">This APK versus Play Store clones and slot-only pages</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">This APK versus Play Store clones and Softonic pages</h2>
           <p className="text-gray-300 mb-6">
-            Other Teen Patti Show domains lean on “most trusted / instant / #1” copy. The useful comparison for a Pakistani player is wallets, cash-out, and whether the file even matches the icon.
+            Google’s first page for “Teen Patti Master” is mostly Play Store casual clones and Softonic download doorways. The useful comparison for a Pakistani player is wallets, cash-out, and whether the file even matches the icon.
           </p>
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-              <thead className="bg-[#16101F]">
+              <thead className="bg-secondary">
                 <tr>
                   <th className="py-3 px-6 text-left text-white font-semibold">Check</th>
-                  <th className="py-3 px-6 text-left text-white font-semibold">Teen Patti Show on this domain</th>
-                  <th className="py-3 px-6 text-left text-white font-semibold">Play Store clones / generic slot pages</th>
+                  <th className="py-3 px-6 text-left text-white font-semibold">Teen Patti Master on this domain</th>
+                  <th className="py-3 px-6 text-left text-white font-semibold">Play Store clones / Softonic pages</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-800 text-gray-300">
                 <tr className="bg-primary/50"><td className="py-3 px-6">Wallets</td><td className="py-3 px-6">JazzCash and EasyPaisa named on Shop</td><td className="py-3 px-6">Often coins only, or no Pakistani rail</td></tr>
-                <tr className="bg-secondary/50"><td className="py-3 px-6">Where you install</td><td className="py-3 px-6">teenpattishowgame.com.pk, then the download page</td><td className="py-3 px-6">Play Store lookalikes or APK mirrors</td></tr>
+                <tr className="bg-secondary/50"><td className="py-3 px-6">Where you install</td><td className="py-3 px-6">teenpattimastergame.com.pk, then the download page</td><td className="py-3 px-6">Play Store lookalikes or Softonic mirrors</td></tr>
                 <tr className="bg-primary/50"><td className="py-3 px-6">Cash-out</td><td className="py-3 px-6">Back to the number you bound</td><td className="py-3 px-6">Usually none</td></tr>
                 <tr className="bg-secondary/50"><td className="py-3 px-6">First add</td><td className="py-3 px-6">Welcome match with a wager line</td><td className="py-3 px-6">Fake coins or a blank shop</td></tr>
                 <tr className="bg-primary/50"><td className="py-3 px-6">iPhone</td><td className="py-3 px-6">No — Android APK only</td><td className="py-3 px-6">Some pages advertise an iOS APK that is not this product</td></tr>
@@ -785,7 +784,7 @@ export default function Home() {
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">When Android refuses the APK</h2>
           <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li><strong>App not installed:</strong> an older Teen Patti Show or a “Showy” clone is still on the phone. Uninstall it, then tap the new file.</li>
+            <li><strong>App not installed:</strong> an older Teen Patti Master or a Play Store clone is still on the phone. Uninstall it, then tap the new file.</li>
             <li><strong>Parse error / incomplete download:</strong> the 38MB file did not finish. Delete it and save again from the download page.</li>
             <li><strong>Blocked by Play Protect:</strong> sideloads can trip a warning. Compare the gold-frame icon to this site before you keep going. A file from WhatsApp that fails this check should be deleted.</li>
             <li><strong>Unknown sources greyed out:</strong> enable Install unknown apps for the same browser you used, not for every app on the phone.</li>
@@ -796,13 +795,13 @@ export default function Home() {
 
       <section id="hand-ranks" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Teen Patti hands before you tap Show</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Hands before you tap Show</h2>
           <p className="text-gray-300 mb-6">
-            A short rank list so the first cash table is not a guess. Blind versus seen play and when a show is allowed sit in the <Link href={`${ROUTES.blog}/teen-patti-show-tips-how-to-play`} className="text-accent hover:underline">hand and show guide</Link>.
+            A short rank list so the first cash table is not a guess. Blind versus seen play and when a show is allowed sit in the <Link href={`${ROUTES.blog}/${BLOGS[3].slug}`} className="text-accent hover:underline">hand and show guide</Link>.
           </p>
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-              <thead className="bg-[#16101F]">
+              <thead className="bg-secondary">
                 <tr>
                   <th className="py-3 px-6 text-left text-white font-semibold">Rank</th>
                   <th className="py-3 px-6 text-left text-white font-semibold">Hand</th>
@@ -824,9 +823,9 @@ export default function Home() {
 
       <section id="who-this-is-for" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Who this lobby is for — and who should skip it</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Who should sit — and who should skip</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-[#16101F] p-6 rounded-lg">
+            <div className="bg-primary p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-3 text-accent">Sit down if</h3>
               <ul className="list-disc pl-5 space-y-2 text-gray-300">
                 <li>You are 18 or older on an Android 5.0+ phone</li>
@@ -835,7 +834,7 @@ export default function Home() {
                 <li>You can lose the add without calling it a salary</li>
               </ul>
             </div>
-            <div className="bg-[#16101F] p-6 rounded-lg">
+            <div className="bg-primary p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-3 text-accent">Skip if</h3>
               <ul className="list-disc pl-5 space-y-2 text-gray-300">
                 <li>You need an iPhone build — there is none</li>
@@ -852,7 +851,7 @@ export default function Home() {
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">What safety this file can and cannot promise</h2>
           <p className="text-gray-300 leading-relaxed mb-4">
-            Teen Patti Show encrypts login traffic and lists JazzCash and EasyPaisa by name. That helps you match a wallet to your own SIM. It is not a Play Store listing, and it is not a Pakistani gaming licence. Side-loaded APKs can be swapped. Install from this domain, compare the gold-frame icon, and never send a JazzCash PIN, OTP, or CNIC photo to a “helper.”
+            Teen Patti Master encrypts login traffic and lists JazzCash and EasyPaisa by name. That helps you match a wallet to your own SIM. It is not a Play Store listing, and it is not a Pakistani gaming licence. Side-loaded APKs can be swapped. Start from this domain, compare the gold-frame icon, and never send a JazzCash PIN, OTP, or CNIC photo to a “helper.”
           </p>
           <ul className="list-disc pl-5 space-y-2 text-gray-300 mb-4">
             <li>Refuse a file that asks for contacts or the microphone before you have opened a table.</li>
@@ -861,7 +860,7 @@ export default function Home() {
             <li>18+ only. Stop when the add is no longer money you can lose.</li>
           </ul>
           <p className="text-gray-300 leading-relaxed">
-            For a longer check on fake files and first payouts, read <Link href={`${ROUTES.blog}/is-teen-patti-show-real-pakistan`} className="text-accent hover:underline">whether Teen Patti Show is real in Pakistan</Link>.
+            For a longer check on fake files and first payouts, read <Link href={`${ROUTES.blog}/${BLOGS[0].slug}`} className="text-accent hover:underline">whether Teen Patti Master is real in Pakistan</Link>.
           </p>
         </div>
       </section>
@@ -872,7 +871,7 @@ export default function Home() {
           <p className="text-gray-300 mb-8">Four pieces on this site, not a doorway cluster of the same page:</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {BLOGS.map((post) => (
-              <Link key={post.slug} href={`${ROUTES.blog}/${post.slug}`} className="bg-[#16101F] p-6 rounded-lg hover:border-accent border border-transparent transition-colors">
+              <Link key={post.slug} href={`${ROUTES.blog}/${post.slug}`} className="bg-primary p-6 rounded-lg hover:border-accent border border-transparent transition-colors">
                 <h3 className="text-xl font-semibold mb-2 text-white">{post.title}</h3>
                 <p className="text-gray-400">{post.description}</p>
               </Link>
@@ -889,15 +888,15 @@ export default function Home() {
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Reach support without leaving the lobby</h2>
           <p className="text-gray-300 mb-6">Use one channel per ticket so the same deposit ID is not opened three times:</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-[#16101F] p-6 rounded-lg">
+            <div className="bg-primary p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-3 text-accent">Live chat</h3>
               <p className="text-gray-300">The in-app chat is the fastest path for a stuck add, a pending cash-out, or a login OTP that never arrives. Paste the ticket ID. Do not send a second withdrawal while you wait.</p>
             </div>
-            <div className="bg-[#16101F] p-6 rounded-lg">
+            <div className="bg-primary p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-3 text-accent">WhatsApp</h3>
               <p className="text-gray-300">The number printed inside Help is the backup line. Use it when chat is offline. Anyone who DMs you a different number and asks for a PIN is not this desk.</p>
             </div>
-            <div className="bg-[#16101F] p-6 rounded-lg">
+            <div className="bg-primary p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-3 text-accent">On-site FAQ</h3>
               <p className="text-gray-300">The accordion on this page covers guest play, iOS, referrals, and loss risk. Check it before you open chat for a question already answered here.</p>
             </div>
@@ -909,7 +908,7 @@ export default function Home() {
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Habits that keep a first wallet alive</h2>
           <ul className="list-disc pl-5 space-y-3 text-gray-300">
-            <li><strong>Sit at a cheap table first:</strong> Learn when a show is allowed before you raise on a 1,000 PKR seat. The <Link href={`${ROUTES.blog}/teen-patti-show-tips-how-to-play`} className="text-accent hover:underline">hand and show guide</Link> covers blind versus seen play.</li>
+            <li><strong>Sit at a cheap table first:</strong> Learn when a show is allowed before you raise on a 1,000 PKR seat. The <Link href={`${ROUTES.blog}/${BLOGS[3].slug}`} className="text-accent hover:underline">hand and show guide</Link> covers blind versus seen play.</li>
             <li><strong>Read the wager line on a bonus:</strong> Daily chips and a first-deposit match still need play-through. Do not cash out mid-wager and then blame the ticket.</li>
             <li><strong>Do not chase Dragon vs Tiger to “get even”:</strong> Fast rooms drain a wallet quicker than a patient Teen Patti table.</li>
             <li><strong>Share the referral link, not your password:</strong> Commission posts when friends play. You never need to log in on their phone.</li>
@@ -929,7 +928,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-xl font-semibold mb-3 text-accent">What holds up</h3>
-              <div className="bg-[#16101F] px-8 py-8 rounded-lg">
+              <div className="bg-primary px-8 py-8 rounded-lg">
                 <ul className="space-y-3 text-gray-300">
                   <li>✓ Teen Patti rules most Pakistani players already know</li>
                   <li>✓ JazzCash and EasyPaisa named on the wallet screen</li>
@@ -943,7 +942,7 @@ export default function Home() {
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-3 text-accent">What does not</h3>
-              <div className="bg-[#16101F] px-8 py-8 rounded-lg">
+              <div className="bg-primary px-8 py-8 rounded-lg">
                 <ul className="space-y-3 text-gray-300">
                   <li>✗ You can lose every rupee you add</li>
                   <li>✗ A cash-out can sit on pending after bonus play</li>
@@ -964,7 +963,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8 text-accent">Questions people ask before they install</h2>
           <div className="space-y-4">
             {faqs.map((item) => (
-              <details key={item.q} className="group bg-[#16101F]/50 rounded-xl border border-gray-700 hover:border-accent/50 transition-all duration-300 shadow-md hover:shadow-lg">
+              <details key={item.q} className="group bg-primary/50 rounded-xl border border-gray-700 hover:border-accent/50 transition-all duration-300 shadow-md hover:shadow-lg">
                 <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-accent transition-colors">
                   {item.q}
                   <span className="transition group-open:rotate-180">
@@ -984,7 +983,7 @@ export default function Home() {
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Bottom line</h2>
           <p className="text-gray-300 mb-4">
-            Teen Patti Show, installed from teenpattishowgame.com.pk, is a real Android lobby with named Pakistani wallets and real ways to lose money. It is not a Play Store clone and it is not a guaranteed income app. Compare the icon, bind your own number, and send a small test cash-out after you clear any wagering line.
+            Teen Patti Master, started from teenpattimastergame.com.pk, is a real Android lobby with named Pakistani wallets and real ways to lose money. It is not a Play Store clone and it is not a guaranteed income app. Compare the icon, bind your own number, and send a small test cash-out after you clear any wagering line.
           </p>
           <p className="text-gray-300">
             If you want the file, take it from this domain, sit at a cheap Teen Patti table first, and leave when the wallet is no longer money you can afford to lose. 18+ only. This is not a job and not a licensed casino.

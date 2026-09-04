@@ -14,7 +14,7 @@ export default function Footer() {
               {SITE_NAME} is an Android card lobby for Pakistani players who want Teen Patti tables, JazzCash or EasyPaisa wallets, and a clear place to install the APK.
             </p>
             <div className="flex space-x-4">
-              <a href={FACEBOOK_PROFILE_URL} target="_blank" rel="noopener noreferrer" aria-label="Teen Patti Show on Facebook">
+              <a href={FACEBOOK_PROFILE_URL} target="_blank" rel="noopener noreferrer" aria-label="Teen Patti Master on Facebook">
                 <svg className="w-5 h-5 text-gray-400 hover:text-accent transition-colors" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M18.77,7.46H14.5v-1.9c0-0.9,0.6-1.1,1-1.1h3V0.13H14.5c-4.1,0-5,2.9-5,4.8v2.5H6v4.5h3.5V22h5V11.96h3.35L18.77,7.46z" />
                 </svg>
@@ -40,13 +40,13 @@ export default function Footer() {
               <li><Link href={ROUTES.deposit} className="text-gray-300 hover:text-accent transition-colors">JazzCash deposit steps</Link></li>
               <li><Link href={ROUTES.withdraw} className="text-gray-300 hover:text-accent transition-colors">EasyPaisa cash-out steps</Link></li>
               <li>
-                <Link href={`${ROUTES.blog}/${BLOGS[1].slug}`} className="text-gray-300 hover:text-accent transition-colors">
-                  Account and login help
+                <Link href={`${ROUTES.blog}/${BLOGS[0].slug}`} className="text-gray-300 hover:text-accent transition-colors">
+                  Is this APK real in Pakistan
                 </Link>
               </li>
               <li>
-                <Link href={`${ROUTES.blog}/${BLOGS[4].slug}`} className="text-gray-300 hover:text-accent transition-colors">
-                  Recover a forgotten password
+                <Link href={`${ROUTES.blog}/${BLOGS[1].slug}`} className="text-gray-300 hover:text-accent transition-colors">
+                  Account, login, and password
                 </Link>
               </li>
               <li>

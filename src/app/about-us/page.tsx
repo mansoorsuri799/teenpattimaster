@@ -7,17 +7,17 @@ import { FACEBOOK_PROFILE_URL } from "@/lib/appFacts";
 import { IMAGES, ROUTES, SITE_HOST, SITE_NAME, SITE_ORIGIN } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About Teen Patti Show",
+  title: "About Teen Patti Master",
   description:
-    "Who publishes teenpattishowgame.com.pk, what this Teen Patti Show guide covers, and how to reach the team in Pakistan.",
+    "Who publishes teenpattimastergame.com.pk, what this Teen Patti Master guide covers, and how to reach the team in Pakistan.",
   alternates: { canonical: `${SITE_ORIGIN}${ROUTES.about}` },
   openGraph: {
-    title: "About Teen Patti Show",
-    description: "The team behind teenpattishowgame.com.pk and the Teen Patti Show APK guides.",
+    title: "About Teen Patti Master",
+    description: "The team behind teenpattimastergame.com.pk and the Teen Patti Master APK guides.",
     url: `${SITE_ORIGIN}${ROUTES.about}`,
     siteName: SITE_NAME,
     type: "website",
-    images: [{ url: `${SITE_ORIGIN}${IMAGES.logo}`, width: 512, height: 512, alt: "Teen Patti Show logo" }],
+    images: [{ url: `${SITE_ORIGIN}${IMAGES.logo}`, width: 512, height: 512, alt: "Teen Patti Master logo" }],
   },
 };
 
@@ -40,12 +40,12 @@ export default function AboutPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <div className="container mx-auto max-w-4xl">
         <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "About Us", href: ROUTES.about }]} />
-        <h1 className="text-4xl md:text-5xl font-bold mb-8 text-white">About this Teen Patti Show site</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-8 text-white">About this Teen Patti Master site</h1>
         <div className="bg-secondary rounded-2xl p-8 md:p-12 mb-12">
           <div className="flex flex-col md:flex-row items-center gap-8">
             <Image
               src={IMAGES.logo}
-              alt="Teen Patti Show gold-framed logo used by teenpattishowgame.com.pk"
+              alt="Teen Patti Master gold-framed logo used by teenpattimastergame.com.pk"
               width={280}
               height={280}
               className="object-contain"

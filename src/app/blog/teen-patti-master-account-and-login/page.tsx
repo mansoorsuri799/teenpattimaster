@@ -9,7 +9,7 @@ import { BLOGS, IMAGES, ROUTES, SITE_NAME, SITE_ORIGIN } from "@/lib/site";
 const post = BLOGS[1];
 
 export const metadata: Metadata = {
-  title: "Teen Patti Show Account and Login",
+  title: "Teen Patti Master Account, Login, and Password Recovery",
   description: post.description,
   alternates: { canonical: `${SITE_ORIGIN}${ROUTES.blog}/${post.slug}` },
   openGraph: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: `${SITE_ORIGIN}${ROUTES.blog}/${post.slug}`,
     siteName: SITE_NAME,
     type: "article",
-    images: [{ url: `${SITE_ORIGIN}${IMAGES.bind}`, width: 400, height: 711, alt: "Teen Patti Show bind account screen" }],
+    images: [{ url: `${SITE_ORIGIN}${IMAGES.bind}`, width: 400, height: 711, alt: "Teen Patti Master bind mail screen" }],
   },
 };
 
@@ -26,9 +26,9 @@ export default function Page() {
   const howTo = {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    name: "Create a Teen Patti Show account",
+    name: "Create a Teen Patti Master account",
     step: [
-      { "@type": "HowToStep", name: "Install the APK", text: "Install Teen Patti Show from teenpattishowgame.com.pk." },
+      { "@type": "HowToStep", name: "Install the APK", text: "Install Teen Patti Master from teenpattimastergame.com.pk." },
       { "@type": "HowToStep", name: "Sign up", text: "Enter a mobile number you can receive SMS on." },
       { "@type": "HowToStep", name: "Confirm OTP", text: "Type the code and set a unique password." },
       { "@type": "HowToStep", name: "Bind security", text: "Add email from Account Security before you add PKR." },
@@ -43,7 +43,7 @@ export default function Page() {
         slug={post.slug}
         datePublished={post.datePublished}
         image={`${SITE_ORIGIN}${IMAGES.bind}`}
-        articleBody="Register Teen Patti Show with a number you control, bind email, and recover a locked login without opening a second guest wallet."
+        articleBody="Register Teen Patti Master with a number you control, bind email, recover a forgotten password, and keep JazzCash on the same login."
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howTo) }} />
       <Breadcrumbs
@@ -54,10 +54,10 @@ export default function Page() {
         ]}
       />
       <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">One number, one wallet, one login</h1>
-      <p className="text-gray-400 mb-8">4 September 2026 · {post.readMins} min read</p>
+      <p className="text-gray-400 mb-8">5 September 2026 · {post.readMins} min read</p>
       <Image
         src={IMAGES.bind}
-        alt="Teen Patti Show account security screen for binding a login"
+        alt="Teen Patti Master account security screen for binding a login email"
         width={400}
         height={711}
         className="rounded-xl mb-8 mx-auto"
@@ -66,7 +66,7 @@ export default function Page() {
       />
       <div className="space-y-6 text-gray-300 leading-relaxed">
         <p>
-          Login problems on Teen Patti Show almost always start at registration. A guest profile, a borrowed SIM, or a second phone on the same account will look fine until the first cash-out. This article is the account path only. Adding PKR is on the <Link href={ROUTES.deposit} className="text-accent hover:underline">deposit guide</Link>.
+          Login problems on Teen Patti Master almost always start at registration. A guest profile, a borrowed SIM, or a second phone on the same account will look fine until the first cash-out. This article is the account path only — including how to reset a forgotten password. Adding PKR is on the <Link href={ROUTES.deposit} className="text-accent hover:underline">deposit guide</Link>.
         </p>
         <h2 className="text-2xl font-bold text-accent">Create the account on the phone you will keep</h2>
         <p>
@@ -77,7 +77,14 @@ export default function Page() {
         </p>
         <h2 className="text-2xl font-bold text-accent">Sign back in without a second profile</h2>
         <p>
-          Use Login, not a fresh guest button. The wallet sits on the registered number. A new guest looks empty because it is a different account. If you forgot the password, follow the <Link href={`${ROUTES.blog}/${BLOGS[4].slug}`} className="text-accent hover:underline">password recovery steps</Link> on the bound phone or email. Anyone offering a “master login” is not support.
+          Use Login, not a fresh guest button. The wallet sits on the registered number. A new guest looks empty because it is a different account. Anyone offering a “master login” is not support.
+        </p>
+        <h2 className="text-2xl font-bold text-accent">Reset a forgotten password on the bound channel</h2>
+        <p>
+          On the login screen tap Forgot Password. The OTP goes to the mobile number or email you already bound — not a helper’s WhatsApp. Type the code, set a new password you still will not reuse on JazzCash, then sign in once and confirm the wallet numbers are yours.
+        </p>
+        <p>
+          If the OTP never arrives, wait for the cooldown, check that the SIM still sits in the same phone, and try the bound email instead. Opening a second guest profile to “get back in” creates an empty wallet that looks like a stolen balance. It is a different account.
         </p>
         <h2 className="text-2xl font-bold text-accent">When the lobby says IP exceed</h2>
         <p>

@@ -1,11 +1,11 @@
 {
-  "name": "Teen Patti Show",
-  "short_name": "Teen Patti Show",
-  "description": "Pakistani Android card lobby for Teen Patti, JazzCash, and EasyPaisa wallet play.",
+  "name": "Teen Patti Master",
+  "short_name": "Teen Patti Master",
+  "description": "Pakistani Android card lobby for Teen Patti Master, JazzCash, and EasyPaisa wallet play.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0C0A14",
-  "theme_color": "#0C0A14",
+  "background_color": "#071412",
+  "theme_color": "#071412",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -13,7 +13,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "/teen-patti-show.webp",
+      "src": "/teen-patti-master.webp",
       "sizes": "512x512",
       "type": "image/webp",
       "purpose": "any maskable"
